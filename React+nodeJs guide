@@ -1,0 +1,9 @@
+Install nodejs LTS  https://nodejs.org/
+node -v
+
+npx create-react-app frontend
+cd frontend
+npm start
+
+
+npm run build
