@@ -1,0 +1,33 @@
+src/
+│
+├── assets/                  # 用於存放靜態資源（如圖片、字型等）
+│   └── images/
+│       └── logo.png
+│
+├── components/              # 用於存放可重複使用的 UI 元件
+│   ├── Button/
+│   │   ├── Button.jsx       # Button 組件
+│   │   └── Button.module.css # Button 組件對應的 CSS 模組
+│   ├── Header/
+│   │   ├── Header.jsx       # Header 組件
+│   │   └── Header.module.css # Header 組件對應的 CSS 模組
+│   └── Footer/
+│       ├── Footer.jsx       # Footer 組件
+│       └── Footer.module.css # Footer 組件對應的 CSS 模組
+│
+├── pages/                   # 用於存放各頁面組件
+│   ├── Home/
+│   │   ├── Home.jsx
+│   │   └── Home.module.css
+│   ├── Survey/
+│   │   ├── Survey.jsx
+│   │   └── Survey.module.css
+│   └── About/
+│       ├── About.jsx
+│       └── About.module.css
+│
+├── utils/                   # 工具函數或輔助模組
+│   └── api.js               # 處理 API 請求的輔助函數
+│
+├── App.jsx                  # 主組件
+└── index.js                 # 入口文件
